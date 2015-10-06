@@ -1,0 +1,8 @@
+C:\Users\strouse\Desktop\Documents\GitHub\MultiCalc\MultiCalc\MultiCalc\bin\Debug\MultiCalc.exe
+C:\Users\strouse\Desktop\Documents\GitHub\MultiCalc\MultiCalc\MultiCalc\bin\Debug\MultiCalc.pdb
+C:\Users\strouse\Desktop\Documents\GitHub\MultiCalc\MultiCalc\MultiCalc\obj\x86\Debug\MultiCalc.Form1.resources
+C:\Users\strouse\Desktop\Documents\GitHub\MultiCalc\MultiCalc\MultiCalc\obj\x86\Debug\MultiCalc.Properties.Resources.resources
+C:\Users\strouse\Desktop\Documents\GitHub\MultiCalc\MultiCalc\MultiCalc\obj\x86\Debug\MultiCalc.csproj.GenerateResource.Cache
+C:\Users\strouse\Desktop\Documents\GitHub\MultiCalc\MultiCalc\MultiCalc\obj\x86\Debug\MultiCalc.exe
+C:\Users\strouse\Desktop\Documents\GitHub\MultiCalc\MultiCalc\MultiCalc\obj\x86\Debug\MultiCalc.pdb
+C:\Users\strouse\Desktop\Documents\GitHub\MultiCalc\MultiCalc\MultiCalc\obj\x86\Debug\MultiCalc.SampleCalculatorUserControl.resources
