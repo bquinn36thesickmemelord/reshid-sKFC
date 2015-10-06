@@ -28,25 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.SampleLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // SampleLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(76, 139);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(272, 31);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "My Sample Calculator";
+            this.SampleLabel.AutoSize = true;
+            this.SampleLabel.Font = new System.Drawing.Font("Modern No. 20", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SampleLabel.ForeColor = System.Drawing.Color.MediumPurple;
+            this.SampleLabel.Location = new System.Drawing.Point(76, 139);
+            this.SampleLabel.Name = "SampleLabel";
+            this.SampleLabel.Size = new System.Drawing.Size(272, 31);
+            this.SampleLabel.TabIndex = 0;
+            this.SampleLabel.Text = "My Sample Calculator";
             // 
             // SampleCalculatorUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.SampleLabel);
             this.Name = "SampleCalculatorUserControl";
             this.Size = new System.Drawing.Size(434, 357);
             this.Load += new System.EventHandler(this.SampleCalculatorUserControl_Load);
@@ -57,6 +58,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label SampleLabel;
     }
 }
