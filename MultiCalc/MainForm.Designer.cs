@@ -32,6 +32,7 @@
             this.MenuFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.SampleButton = new System.Windows.Forms.Button();
             this.HostPanel = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.MenuFlowLayoutPanel.SuspendLayout();
             this.SuspendLayout();
@@ -54,6 +55,7 @@
             // MenuFlowLayoutPanel
             // 
             this.MenuFlowLayoutPanel.Controls.Add(this.SampleButton);
+            this.MenuFlowLayoutPanel.Controls.Add(this.button1);
             this.MenuFlowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MenuFlowLayoutPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.MenuFlowLayoutPanel.Location = new System.Drawing.Point(0, 0);
@@ -82,6 +84,16 @@
             this.HostPanel.Size = new System.Drawing.Size(491, 441);
             this.HostPanel.TabIndex = 1;
             // 
+            // button1
+            // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.Location = new System.Drawing.Point(3, 38);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(180, 29);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Love Calculator";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -102,6 +114,7 @@
         private System.Windows.Forms.FlowLayoutPanel MenuFlowLayoutPanel;
         private System.Windows.Forms.Button SampleButton;
         private System.Windows.Forms.Panel HostPanel;
+        private System.Windows.Forms.Button button1;
 
 
     }
