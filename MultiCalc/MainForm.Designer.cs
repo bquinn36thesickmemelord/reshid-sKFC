@@ -75,6 +75,7 @@
             // 
             // HostPanel
             // 
+            this.HostPanel.BackgroundImage = global::MultiCalc.Properties.Resources.images;
             this.HostPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.HostPanel.Location = new System.Drawing.Point(193, 3);
             this.HostPanel.Name = "HostPanel";
