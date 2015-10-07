@@ -24,11 +24,5 @@ namespace MultiCalc
             c.Dock = DockStyle.Fill; // Sets it to fill the host panel
             HostPanel.Controls.Add(c); // Adds it to the host panel
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            axWindowsMediaPlayer1.URL =
-    @"TrialProject\coco.mp4";
-        }
     }
 }

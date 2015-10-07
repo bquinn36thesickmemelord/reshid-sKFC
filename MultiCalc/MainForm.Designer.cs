@@ -32,7 +32,6 @@
             this.MenuFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.SampleButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.MenuFlowLayoutPanel.SuspendLayout();
             this.SuspendLayout();
@@ -55,7 +54,6 @@
             // 
             this.MenuFlowLayoutPanel.Controls.Add(this.SampleButton);
             this.MenuFlowLayoutPanel.Controls.Add(this.button1);
-            this.MenuFlowLayoutPanel.Controls.Add(this.button2);
             this.MenuFlowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MenuFlowLayoutPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.MenuFlowLayoutPanel.Location = new System.Drawing.Point(0, 0);
@@ -85,17 +83,6 @@
             this.button1.Text = "Love Calculator";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // button2
-            // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.Location = new System.Drawing.Point(3, 73);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(180, 29);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Kai\'s Calculator";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -117,7 +104,6 @@
         private System.Windows.Forms.FlowLayoutPanel MenuFlowLayoutPanel;
         private System.Windows.Forms.Button SampleButton;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
 
 
     }
