@@ -24,5 +24,14 @@ namespace MultiCalc
             c.Dock = DockStyle.Fill; // Sets it to fill the host panel
             HostPanel.Controls.Add(c); // Adds it to the host panel
         }
+
+        private void btnLoveCalculator_Click(object sender, EventArgs e)
+        {
+            HostPanel.Controls.Clear(); // Removes any existing user controls
+
+            var c = new LoveCalculatorUserControl();  // Creates a new Sample Calculator
+            c.Dock = DockStyle.Fill; // Sets it to fill the host panel
+            HostPanel.Controls.Add(c); // Adds it to the host panel
+        }
     }
 }
