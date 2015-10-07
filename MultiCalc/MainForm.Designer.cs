@@ -31,7 +31,6 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.MenuFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.SampleButton = new System.Windows.Forms.Button();
-            this.HostPanel = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.MenuFlowLayoutPanel.SuspendLayout();
@@ -43,7 +42,6 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.65648F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 72.34352F));
             this.tableLayoutPanel1.Controls.Add(this.MenuFlowLayoutPanel, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.HostPanel, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -75,15 +73,6 @@
             this.SampleButton.UseVisualStyleBackColor = true;
             this.SampleButton.Click += new System.EventHandler(this.SampleButton_Click);
             // 
-            // HostPanel
-            // 
-            this.HostPanel.BackgroundImage = global::MultiCalc.Properties.Resources.images;
-            this.HostPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.HostPanel.Location = new System.Drawing.Point(193, 3);
-            this.HostPanel.Name = "HostPanel";
-            this.HostPanel.Size = new System.Drawing.Size(491, 441);
-            this.HostPanel.TabIndex = 1;
-            // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -98,6 +87,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::MultiCalc.Properties.Resources.Chrysanthemum;
             this.ClientSize = new System.Drawing.Size(687, 447);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "MainForm";
@@ -113,7 +103,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.FlowLayoutPanel MenuFlowLayoutPanel;
         private System.Windows.Forms.Button SampleButton;
-        private System.Windows.Forms.Panel HostPanel;
         private System.Windows.Forms.Button button1;
 
 
