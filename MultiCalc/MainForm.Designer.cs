@@ -32,8 +32,9 @@
             this.MenuFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.SampleButton = new System.Windows.Forms.Button();
             this.JetFuel = new System.Windows.Forms.Button();
-            this.HostPanel = new System.Windows.Forms.Panel();
             this.johncenabutton = new System.Windows.Forms.Button();
+            this.HostPanel = new System.Windows.Forms.Panel();
+            this.DarudeSandstorm = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.MenuFlowLayoutPanel.SuspendLayout();
             this.SuspendLayout();
@@ -58,6 +59,7 @@
             this.MenuFlowLayoutPanel.Controls.Add(this.SampleButton);
             this.MenuFlowLayoutPanel.Controls.Add(this.JetFuel);
             this.MenuFlowLayoutPanel.Controls.Add(this.johncenabutton);
+            this.MenuFlowLayoutPanel.Controls.Add(this.DarudeSandstorm);
             this.MenuFlowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MenuFlowLayoutPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.MenuFlowLayoutPanel.Location = new System.Drawing.Point(0, 0);
@@ -88,14 +90,6 @@
             this.JetFuel.UseVisualStyleBackColor = true;
             this.JetFuel.Click += new System.EventHandler(this.JetFuel_Click);
             // 
-            // HostPanel
-            // 
-            this.HostPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.HostPanel.Location = new System.Drawing.Point(193, 3);
-            this.HostPanel.Name = "HostPanel";
-            this.HostPanel.Size = new System.Drawing.Size(491, 441);
-            this.HostPanel.TabIndex = 1;
-            // 
             // johncenabutton
             // 
             this.johncenabutton.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -105,7 +99,25 @@
             this.johncenabutton.TabIndex = 2;
             this.johncenabutton.Text = "John Cena";
             this.johncenabutton.UseVisualStyleBackColor = true;
-            this.johncenabutton.Click += new System.EventHandler(this.banterbutton_Click);
+            // 
+            // HostPanel
+            // 
+            this.HostPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.HostPanel.Location = new System.Drawing.Point(193, 3);
+            this.HostPanel.Name = "HostPanel";
+            this.HostPanel.Size = new System.Drawing.Size(491, 441);
+            this.HostPanel.TabIndex = 1;
+            // 
+            // DarudeSandstorm
+            // 
+            this.DarudeSandstorm.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.DarudeSandstorm.Location = new System.Drawing.Point(3, 108);
+            this.DarudeSandstorm.Name = "DarudeSandstorm";
+            this.DarudeSandstorm.Size = new System.Drawing.Size(180, 29);
+            this.DarudeSandstorm.TabIndex = 3;
+            this.DarudeSandstorm.Text = "Darude Sandstorm";
+            this.DarudeSandstorm.UseVisualStyleBackColor = true;
+            this.DarudeSandstorm.Click += new System.EventHandler(this.DarudeSandstorm_Click);
             // 
             // MainForm
             // 
@@ -129,6 +141,7 @@
         private System.Windows.Forms.Panel HostPanel;
         private System.Windows.Forms.Button JetFuel;
         private System.Windows.Forms.Button johncenabutton;
+        private System.Windows.Forms.Button DarudeSandstorm;
 
 
     }

@@ -34,5 +34,10 @@ namespace MultiCalc
             HostPanel.Controls.Add(c); // Adds it to the host panel
 
         }
+
+        private void DarudeSandstorm_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=y6120QOlsfU");
+        }
     }
 }
