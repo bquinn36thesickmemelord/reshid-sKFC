@@ -34,5 +34,14 @@ namespace MultiCalc
             HostPanel.Controls.Add(c); // Adds it to the host panel
 
         }
+
+        private void CalculatorTest_Click(object sender, EventArgs e)
+        {
+            HostPanel.Controls.Clear(); // Removes any existing user controls
+
+            var c = new CalculatorTestUserControl();  // Creates a new Sample Calculator
+            c.Dock = DockStyle.Fill; // Sets it to fill the host panel
+            HostPanel.Controls.Add(c); // Adds it to the host panel
+        }
     }
 }
