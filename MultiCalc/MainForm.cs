@@ -37,8 +37,6 @@ namespace MultiCalc
 
         private void johncenabutton_Click(object sender, EventArgs e)
         {
-            myplayer.URL = Application.StartupPath + @"John Cena.avi";
-            myplayer.Ctlcontrols.play();
         }
 
         private void btnLoveCalculator_Click(object sender, EventArgs e)

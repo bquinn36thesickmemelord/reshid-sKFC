@@ -36,3 +36,6 @@ C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\Mul
 C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.Properties.Resources.resources
 C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.SampleCalculatorUserControl.resources
 C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.csproj.GenerateResource.Cache
+C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\bin\Debug\MultiCalc.exe
+C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\bin\Debug\MultiCalc.pdb
+C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.pdb
