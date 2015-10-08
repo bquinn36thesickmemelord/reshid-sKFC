@@ -36,30 +36,33 @@
             // 
             // txtFirstPerson
             // 
+            this.txtFirstPerson.Dock = System.Windows.Forms.DockStyle.Top;
             this.txtFirstPerson.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFirstPerson.Location = new System.Drawing.Point(131, 14);
+            this.txtFirstPerson.Location = new System.Drawing.Point(0, 0);
             this.txtFirstPerson.Name = "txtFirstPerson";
-            this.txtFirstPerson.Size = new System.Drawing.Size(246, 31);
+            this.txtFirstPerson.Size = new System.Drawing.Size(504, 31);
             this.txtFirstPerson.TabIndex = 0;
             this.txtFirstPerson.Text = "First Person";
             this.txtFirstPerson.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtSecondPerson
             // 
+            this.txtSecondPerson.Dock = System.Windows.Forms.DockStyle.Top;
             this.txtSecondPerson.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSecondPerson.Location = new System.Drawing.Point(131, 56);
+            this.txtSecondPerson.Location = new System.Drawing.Point(0, 31);
             this.txtSecondPerson.Name = "txtSecondPerson";
-            this.txtSecondPerson.Size = new System.Drawing.Size(246, 31);
+            this.txtSecondPerson.Size = new System.Drawing.Size(504, 31);
             this.txtSecondPerson.TabIndex = 1;
             this.txtSecondPerson.Text = "Second Person";
             this.txtSecondPerson.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnLoveCalculate
             // 
+            this.btnLoveCalculate.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnLoveCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLoveCalculate.Location = new System.Drawing.Point(131, 93);
+            this.btnLoveCalculate.Location = new System.Drawing.Point(0, 314);
             this.btnLoveCalculate.Name = "btnLoveCalculate";
-            this.btnLoveCalculate.Size = new System.Drawing.Size(246, 134);
+            this.btnLoveCalculate.Size = new System.Drawing.Size(504, 134);
             this.btnLoveCalculate.TabIndex = 2;
             this.btnLoveCalculate.Text = "Calculate";
             this.btnLoveCalculate.UseVisualStyleBackColor = true;
@@ -68,12 +71,15 @@
             // lblLovePercentage
             // 
             this.lblLovePercentage.AutoSize = true;
-            this.lblLovePercentage.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLovePercentage.Location = new System.Drawing.Point(146, 230);
+            this.lblLovePercentage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblLovePercentage.Font = new System.Drawing.Font("Microsoft Sans Serif", 159.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLovePercentage.Location = new System.Drawing.Point(0, 62);
             this.lblLovePercentage.Name = "lblLovePercentage";
-            this.lblLovePercentage.Size = new System.Drawing.Size(0, 108);
+            this.lblLovePercentage.Size = new System.Drawing.Size(456, 241);
             this.lblLovePercentage.TabIndex = 3;
+            this.lblLovePercentage.Text = "100";
             this.lblLovePercentage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLovePercentage.Visible = false;
             // 
             // LoveCalculatorUserControl
             // 
@@ -85,7 +91,7 @@
             this.Controls.Add(this.txtSecondPerson);
             this.Controls.Add(this.txtFirstPerson);
             this.Name = "LoveCalculatorUserControl";
-            this.Size = new System.Drawing.Size(534, 472);
+            this.Size = new System.Drawing.Size(504, 448);
             this.ResumeLayout(false);
             this.PerformLayout();
 

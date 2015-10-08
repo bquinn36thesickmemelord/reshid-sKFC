@@ -140,6 +140,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "MainForm";
             this.Text = "Multi-Calc 2015 by Year 11 FCCC";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.MenuFlowLayoutPanel.ResumeLayout(false);
             this.HostPanel.ResumeLayout(false);

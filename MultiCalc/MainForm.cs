@@ -48,6 +48,11 @@ namespace MultiCalc
             HostPanel.Controls.Add(c); // Adds it to the host panel
         }
 
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
      
     }
 }
