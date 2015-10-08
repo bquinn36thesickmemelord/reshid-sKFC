@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.MenuFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.SampleButton = new System.Windows.Forms.Button();
@@ -36,11 +35,8 @@
             this.simplecalcbutton = new System.Windows.Forms.Button();
             this.btnLoveCalculator = new System.Windows.Forms.Button();
             this.HostPanel = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.MenuFlowLayoutPanel.SuspendLayout();
-            this.HostPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -117,22 +113,11 @@
             // 
             // HostPanel
             // 
-            this.HostPanel.Controls.Add(this.pictureBox1);
             this.HostPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.HostPanel.Location = new System.Drawing.Point(235, 3);
             this.HostPanel.Name = "HostPanel";
             this.HostPanel.Size = new System.Drawing.Size(604, 562);
             this.HostPanel.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(604, 562);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // MainForm
             // 
@@ -144,8 +129,6 @@
             this.Text = "Multi-Calc 2015 by Year 11 FCCC";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.MenuFlowLayoutPanel.ResumeLayout(false);
-            this.HostPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -157,12 +140,14 @@
         private System.Windows.Forms.Button SampleButton;
         private System.Windows.Forms.Panel HostPanel;
         private System.Windows.Forms.Button JetFuel;
+<<<<<<< HEAD
         private System.Windows.Forms.Button simplecalcbutton;
 <<<<<<< HEAD
-        private System.Windows.Forms.Button btnLoveCalculator;
 =======
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button johncenabutton;
 >>>>>>> origin/master
+        private System.Windows.Forms.Button btnLoveCalculator;
+
 
 
     }
