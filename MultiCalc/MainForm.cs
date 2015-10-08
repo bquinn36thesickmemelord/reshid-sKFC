@@ -34,5 +34,13 @@ namespace MultiCalc
             HostPanel.Controls.Add(c); // Adds it to the host panel
 
         }
+
+        private void johncenabutton_Click(object sender, EventArgs e)
+        {
+            myplayer.URL = Application.StartupPath + @"John Cena.avi";
+            myplayer.Ctlcontrols.play();
+        }
+
+     
     }
 }
