@@ -31,8 +31,9 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.MenuFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.SampleButton = new System.Windows.Forms.Button();
-            this.HostPanel = new System.Windows.Forms.Panel();
             this.JetFuel = new System.Windows.Forms.Button();
+            this.HostPanel = new System.Windows.Forms.Panel();
+            this.mousefanclub = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.MenuFlowLayoutPanel.SuspendLayout();
             this.SuspendLayout();
@@ -56,6 +57,7 @@
             // 
             this.MenuFlowLayoutPanel.Controls.Add(this.SampleButton);
             this.MenuFlowLayoutPanel.Controls.Add(this.JetFuel);
+            this.MenuFlowLayoutPanel.Controls.Add(this.mousefanclub);
             this.MenuFlowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MenuFlowLayoutPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.MenuFlowLayoutPanel.Location = new System.Drawing.Point(0, 0);
@@ -67,13 +69,24 @@
             // SampleButton
             // 
             this.SampleButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.SampleButton.Location = new System.Drawing.Point(3, 3);
+            this.SampleButton.Location = new System.Drawing.Point(4, 3);
             this.SampleButton.Name = "SampleButton";
             this.SampleButton.Size = new System.Drawing.Size(180, 29);
             this.SampleButton.TabIndex = 0;
             this.SampleButton.Text = "Sample Calculator";
             this.SampleButton.UseVisualStyleBackColor = true;
             this.SampleButton.Click += new System.EventHandler(this.SampleButton_Click);
+            // 
+            // JetFuel
+            // 
+            this.JetFuel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.JetFuel.Location = new System.Drawing.Point(4, 38);
+            this.JetFuel.Name = "JetFuel";
+            this.JetFuel.Size = new System.Drawing.Size(180, 29);
+            this.JetFuel.TabIndex = 1;
+            this.JetFuel.Text = "Jet fuel can\'t melt steel beams";
+            this.JetFuel.UseVisualStyleBackColor = true;
+            this.JetFuel.Click += new System.EventHandler(this.JetFuel_Click);
             // 
             // HostPanel
             // 
@@ -83,16 +96,15 @@
             this.HostPanel.Size = new System.Drawing.Size(491, 441);
             this.HostPanel.TabIndex = 1;
             // 
-            // JetFuel
+            // mousefanclub
             // 
-            this.JetFuel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.JetFuel.Location = new System.Drawing.Point(3, 38);
-            this.JetFuel.Name = "JetFuel";
-            this.JetFuel.Size = new System.Drawing.Size(180, 29);
-            this.JetFuel.TabIndex = 1;
-            this.JetFuel.Text = "Jet fuel can\'t melt steel beams";
-            this.JetFuel.UseVisualStyleBackColor = true;
-            this.JetFuel.Click += new System.EventHandler(this.JetFuel_Click);
+            this.mousefanclub.Location = new System.Drawing.Point(3, 73);
+            this.mousefanclub.Name = "mousefanclub";
+            this.mousefanclub.Size = new System.Drawing.Size(183, 29);
+            this.mousefanclub.TabIndex = 2;
+            this.mousefanclub.Text = "Mouse Fan Club ";
+            this.mousefanclub.UseVisualStyleBackColor = true;
+            this.mousefanclub.Click += new System.EventHandler(this.mousefanclub_Click);
             // 
             // MainForm
             // 
@@ -115,6 +127,7 @@
         private System.Windows.Forms.Button SampleButton;
         private System.Windows.Forms.Panel HostPanel;
         private System.Windows.Forms.Button JetFuel;
+        private System.Windows.Forms.Button mousefanclub;
 
 
     }
