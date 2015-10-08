@@ -35,6 +35,7 @@
             this.johncenabutton = new System.Windows.Forms.Button();
             this.btnLoveCalculator = new System.Windows.Forms.Button();
             this.HostPanel = new System.Windows.Forms.Panel();
+            this.BushButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.MenuFlowLayoutPanel.SuspendLayout();
             this.SuspendLayout();
@@ -60,6 +61,7 @@
             this.MenuFlowLayoutPanel.Controls.Add(this.JetFuel);
             this.MenuFlowLayoutPanel.Controls.Add(this.johncenabutton);
             this.MenuFlowLayoutPanel.Controls.Add(this.btnLoveCalculator);
+            this.MenuFlowLayoutPanel.Controls.Add(this.BushButton);
             this.MenuFlowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MenuFlowLayoutPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.MenuFlowLayoutPanel.Location = new System.Drawing.Point(0, 0);
@@ -120,6 +122,19 @@
             this.HostPanel.Size = new System.Drawing.Size(604, 562);
             this.HostPanel.TabIndex = 1;
             // 
+            // BushButton
+            // 
+            this.BushButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.BushButton.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BushButton.ForeColor = System.Drawing.Color.Red;
+            this.BushButton.Location = new System.Drawing.Point(3, 143);
+            this.BushButton.Name = "BushButton";
+            this.BushButton.Size = new System.Drawing.Size(180, 29);
+            this.BushButton.TabIndex = 4;
+            this.BushButton.Text = "Bush Did 9/11";
+            this.BushButton.UseVisualStyleBackColor = false;
+            this.BushButton.Click += new System.EventHandler(this.BushButton_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -143,6 +158,7 @@
         private System.Windows.Forms.Button JetFuel;
         private System.Windows.Forms.Button johncenabutton;
         private System.Windows.Forms.Button btnLoveCalculator;
+        private System.Windows.Forms.Button BushButton;
 
 
 

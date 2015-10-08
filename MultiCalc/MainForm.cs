@@ -48,6 +48,13 @@ namespace MultiCalc
         private void johncenabutton_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void BushButton_Click(object sender, EventArgs e)
+        {
+
         }     
+
+
     }
 }
