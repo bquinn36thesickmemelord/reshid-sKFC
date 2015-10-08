@@ -35,6 +35,7 @@
             this.JetFuel = new System.Windows.Forms.Button();
             this.johncenabutton = new System.Windows.Forms.Button();
             this.btnLoveCalculator = new System.Windows.Forms.Button();
+            this.BushButton = new System.Windows.Forms.Button();
             this.HostPanel = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
@@ -115,6 +116,19 @@
             this.btnLoveCalculator.Text = "Love Calculator";
             this.btnLoveCalculator.UseVisualStyleBackColor = true;
             this.btnLoveCalculator.Click += new System.EventHandler(this.btnLoveCalculator_Click);
+            // 
+            // BushButton
+            // 
+            this.BushButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.BushButton.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BushButton.ForeColor = System.Drawing.Color.Red;
+            this.BushButton.Location = new System.Drawing.Point(3, 143);
+            this.BushButton.Name = "BushButton";
+            this.BushButton.Size = new System.Drawing.Size(180, 29);
+            this.BushButton.TabIndex = 4;
+            this.BushButton.Text = "Bush Did 9/11";
+            this.BushButton.UseVisualStyleBackColor = false;
+            this.BushButton.Click += new System.EventHandler(this.BushButton_Click);
             // 
             // HostPanel
             // 
