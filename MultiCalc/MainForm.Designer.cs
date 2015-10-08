@@ -32,8 +32,8 @@
             this.MenuFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.SampleButton = new System.Windows.Forms.Button();
             this.JetFuel = new System.Windows.Forms.Button();
-            this.HostPanel = new System.Windows.Forms.Panel();
             this.johncenabutton = new System.Windows.Forms.Button();
+            this.HostPanel = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.MenuFlowLayoutPanel.SuspendLayout();
             this.SuspendLayout();
@@ -88,14 +88,6 @@
             this.JetFuel.UseVisualStyleBackColor = true;
             this.JetFuel.Click += new System.EventHandler(this.JetFuel_Click);
             // 
-            // HostPanel
-            // 
-            this.HostPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.HostPanel.Location = new System.Drawing.Point(193, 3);
-            this.HostPanel.Name = "HostPanel";
-            this.HostPanel.Size = new System.Drawing.Size(491, 441);
-            this.HostPanel.TabIndex = 1;
-            // 
             // johncenabutton
             // 
             this.johncenabutton.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -105,7 +97,15 @@
             this.johncenabutton.TabIndex = 2;
             this.johncenabutton.Text = "John Cena";
             this.johncenabutton.UseVisualStyleBackColor = true;
-            this.johncenabutton.Click += new System.EventHandler(this.banterbutton_Click);
+            this.johncenabutton.Click += new System.EventHandler(this.johncenabutton_Click);
+            // 
+            // HostPanel
+            // 
+            this.HostPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.HostPanel.Location = new System.Drawing.Point(193, 3);
+            this.HostPanel.Name = "HostPanel";
+            this.HostPanel.Size = new System.Drawing.Size(491, 441);
+            this.HostPanel.TabIndex = 1;
             // 
             // MainForm
             // 
