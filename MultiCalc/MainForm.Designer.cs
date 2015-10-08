@@ -33,9 +33,8 @@
             this.MenuFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.SampleButton = new System.Windows.Forms.Button();
             this.JetFuel = new System.Windows.Forms.Button();
-            this.johncenabutton = new System.Windows.Forms.Button();
+            this.simplecalcbutton = new System.Windows.Forms.Button();
             this.btnLoveCalculator = new System.Windows.Forms.Button();
-            this.BushButton = new System.Windows.Forms.Button();
             this.HostPanel = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
@@ -63,7 +62,7 @@
             // 
             this.MenuFlowLayoutPanel.Controls.Add(this.SampleButton);
             this.MenuFlowLayoutPanel.Controls.Add(this.JetFuel);
-            this.MenuFlowLayoutPanel.Controls.Add(this.johncenabutton);
+            this.MenuFlowLayoutPanel.Controls.Add(this.simplecalcbutton);
             this.MenuFlowLayoutPanel.Controls.Add(this.btnLoveCalculator);
             this.MenuFlowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MenuFlowLayoutPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
@@ -95,16 +94,15 @@
             this.JetFuel.UseVisualStyleBackColor = true;
             this.JetFuel.Click += new System.EventHandler(this.JetFuel_Click);
             // 
-            // johncenabutton
+            // simplecalcbutton
             // 
-            this.johncenabutton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.johncenabutton.Location = new System.Drawing.Point(3, 73);
-            this.johncenabutton.Name = "johncenabutton";
-            this.johncenabutton.Size = new System.Drawing.Size(180, 29);
-            this.johncenabutton.TabIndex = 2;
-            this.johncenabutton.Text = "John Cena";
-            this.johncenabutton.UseVisualStyleBackColor = true;
-            this.johncenabutton.Click += new System.EventHandler(this.johncenabutton_Click);
+            this.simplecalcbutton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.simplecalcbutton.Location = new System.Drawing.Point(3, 73);
+            this.simplecalcbutton.Name = "simplecalcbutton";
+            this.simplecalcbutton.Size = new System.Drawing.Size(180, 29);
+            this.simplecalcbutton.TabIndex = 2;
+            this.simplecalcbutton.UseVisualStyleBackColor = true;
+            this.simplecalcbutton.Click += new System.EventHandler(this.johncenabutton_Click);
             // 
             // btnLoveCalculator
             // 
@@ -116,19 +114,6 @@
             this.btnLoveCalculator.Text = "Love Calculator";
             this.btnLoveCalculator.UseVisualStyleBackColor = true;
             this.btnLoveCalculator.Click += new System.EventHandler(this.btnLoveCalculator_Click);
-            // 
-            // BushButton
-            // 
-            this.BushButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.BushButton.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BushButton.ForeColor = System.Drawing.Color.Red;
-            this.BushButton.Location = new System.Drawing.Point(3, 143);
-            this.BushButton.Name = "BushButton";
-            this.BushButton.Size = new System.Drawing.Size(180, 29);
-            this.BushButton.TabIndex = 4;
-            this.BushButton.Text = "Bush Did 9/11";
-            this.BushButton.UseVisualStyleBackColor = false;
-            this.BushButton.Click += new System.EventHandler(this.BushButton_Click);
             // 
             // HostPanel
             // 
@@ -172,7 +157,7 @@
         private System.Windows.Forms.Button SampleButton;
         private System.Windows.Forms.Panel HostPanel;
         private System.Windows.Forms.Button JetFuel;
-        private System.Windows.Forms.Button johncenabutton;
+        private System.Windows.Forms.Button simplecalcbutton;
 <<<<<<< HEAD
         private System.Windows.Forms.Button btnLoveCalculator;
 =======
