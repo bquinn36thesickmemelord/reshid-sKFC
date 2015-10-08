@@ -28,27 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SampleLabel = new System.Windows.Forms.Label();
+            this.txtFirstPerson = new System.Windows.Forms.TextBox();
+            this.txtSecondPerson = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // SampleLabel
+            // txtFirstPerson
             // 
-            this.SampleLabel.AutoSize = true;
-            this.SampleLabel.Font = new System.Drawing.Font("Modern No. 20", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SampleLabel.ForeColor = System.Drawing.Color.MediumPurple;
-            this.SampleLabel.Location = new System.Drawing.Point(85, 204);
-            this.SampleLabel.Name = "SampleLabel";
-            this.SampleLabel.Size = new System.Drawing.Size(337, 31);
-            this.SampleLabel.TabIndex = 1;
-            this.SampleLabel.Text = "My Sample Love Calculator";
+            this.txtFirstPerson.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFirstPerson.Location = new System.Drawing.Point(131, 14);
+            this.txtFirstPerson.Name = "txtFirstPerson";
+            this.txtFirstPerson.Size = new System.Drawing.Size(246, 31);
+            this.txtFirstPerson.TabIndex = 0;
+            this.txtFirstPerson.Text = "First Person";
+            this.txtFirstPerson.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtSecondPerson
+            // 
+            this.txtSecondPerson.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSecondPerson.Location = new System.Drawing.Point(131, 56);
+            this.txtSecondPerson.Name = "txtSecondPerson";
+            this.txtSecondPerson.Size = new System.Drawing.Size(246, 31);
+            this.txtSecondPerson.TabIndex = 1;
+            this.txtSecondPerson.Text = "Second Person";
+            this.txtSecondPerson.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(131, 83);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(246, 134);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // LoveCalculatorUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.SampleLabel);
+            this.BackColor = System.Drawing.Color.Violet;
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtSecondPerson);
+            this.Controls.Add(this.txtFirstPerson);
             this.Name = "LoveCalculatorUserControl";
-            this.Size = new System.Drawing.Size(499, 434);
+            this.Size = new System.Drawing.Size(534, 472);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -56,6 +79,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label SampleLabel;
+        private System.Windows.Forms.TextBox txtFirstPerson;
+        private System.Windows.Forms.TextBox txtSecondPerson;
+        private System.Windows.Forms.Button button1;
+
     }
 }

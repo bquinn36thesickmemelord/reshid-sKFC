@@ -29,3 +29,10 @@ C:\Users\pwatson17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCa
 C:\Users\pwatson17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.SampleCalculatorUserControl.resources
 C:\Users\pwatson17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.csproj.GenerateResource.Cache
 C:\Users\pwatson17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.exe
+C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.exe
+C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.csprojResolveAssemblyReference.cache
+C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.LoveCalculatorUserControl.resources
+C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.MainForm.resources
+C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.Properties.Resources.resources
+C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.SampleCalculatorUserControl.resources
+C:\Users\bhildebrand17\Documents\GitHub\TrialProject\MultiCalc\obj\x86\Debug\MultiCalc.csproj.GenerateResource.Cache
