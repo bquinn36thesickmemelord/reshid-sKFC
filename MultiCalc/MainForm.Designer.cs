@@ -103,7 +103,7 @@
             this.johncenabutton.TabIndex = 2;
             this.johncenabutton.Text = "John Cena";
             this.johncenabutton.UseVisualStyleBackColor = true;
-            this.johncenabutton.Click += new System.EventHandler(this.johncenabutton_Click_1);
+            this.johncenabutton.Click += new System.EventHandler(this.johncenabutton_Click);
             // 
             // btnLoveCalculator
             // 
